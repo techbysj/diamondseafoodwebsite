@@ -1,6 +1,6 @@
 import React from "react";
 
-const ProdWidget = ({ image, text, buttonText }) => {
+const ProdWidget = ({ image, text, buttonText, buttonLink }) => {
   return (
     <div className="p-4 relative w-96 h-86 md:w-86 h-66 overflow-hidden rounded-lg shadow-lg">
       {/* Enlarged image with hover zoom effect */}
@@ -16,9 +16,12 @@ const ProdWidget = ({ image, text, buttonText }) => {
           {text}
         </h2>
         {/* Button */}
-        <button className="border border-white text-white py-2 px-6 rounded-lg bg-transparent hover:bg-black hover:text-white transition duration-300">
+        <a
+          href={buttonLink}
+          className="border border-white text-white py-2 px-6 rounded-lg bg-transparent hover:bg-black hover:text-white transition duration-300"
+        >
           {buttonText}
-        </button>
+        </a>
       </div>
     </div>
   );

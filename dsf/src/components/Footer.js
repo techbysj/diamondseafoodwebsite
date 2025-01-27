@@ -61,7 +61,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="/livedeepseacrab"
+                  href="/contact"
                   className="text-gray-700 hover:text-gray-900"
                 >
                   Request a Call

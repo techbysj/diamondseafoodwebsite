@@ -23,11 +23,13 @@ const Home = () => {
             image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRO35Om_rfcMny6wVNYMtlI0aHjJjMOVzitfaQXO46hYDkJ6C4ZxCxCSqU4N7ELqQmAO2E&usqp=CAU"
             text="Live Sea Crab"
             buttonText="More Details"
+            buttonLink="/live-crab"
           />
           <ProdWidget
             image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbcjcxcWKS5vsUqSSJ3AacGI26yjKDg4gAyXKI4DHbvCL4lGeUAI9C_yeY7DSQdwdyuYo&usqp=CAU"
             text="Frozen Sea Crab"
             buttonText="More Details"
+            buttonLink="/frozen-crab"
           />
         </div>
       </div>
